@@ -50,14 +50,10 @@
                 
                 <p class="no-print">Assista ao vídeo a seguir, que trata mais sobre esse gênero de texto e sobre sua finalidade.</p>
 
-                <div class="alert alert-danger no-print" role="alert">
-                    <strong>Este vídeo é um placeholder e será substituido por outro enviado pela equipe de vídeo.</strong>
-                </div>
-
                 <iframe
                     class="youtube-pl no-print"
                     width="560" height="315"
-                    src="https://www.youtube.com/embed/GlwJOzKUx2M"
+                    src="https://www.youtube.com/embed/Jj2gilenTLU"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -599,7 +595,7 @@
                 <iframe
                     class="youtube-pl no-print"
                     width="560" height="315"
-                    src="https://www.youtube.com/embed/GlwJOzKUx2M"
+                    src="https://www.youtube.com/embed/G2s61zjeCIU"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -775,7 +771,7 @@
                 
                 <div class="botoes-bandeiras">
                     <img src="./images/audio-1.png" data-bs-toggle="modal" data-bs-target="#audio-1" alt="">
-                    <img src="./images/audio-2.png" data-bs-toggle="modal" data-bs-target="#audio-1" alt="">
+                    <img src="./images/audio-2.png" data-bs-toggle="modal" data-bs-target="#audio-2" alt="">
                 </div>
 
                 <!-- modal mapa audio 1-->
@@ -785,34 +781,98 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="transcricao-title">
-                                    Espera de audio
+                                    Inglês americano
                                 </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"><i class="fa fa-times"></i></button>
                             </div>
                             <div class="modal-body">
-                                <div class="alert alert-danger no-print" role="alert">
-                                    <strong>Este é um placeholder será substituido por um audio</strong>
-                                </div>
+
                                 <div class="sesc-audio-player no-print">
                                     <audio>
-                                        <source src="assets/audio/audio.mp3" type="audio/mpeg">
+                                        <source src="./audio/american1.mp3" type="audio/mpeg">
                                     </audio>
                                     <div class="row g-0 align-items-center">
                                         <div class="col-12 col-lg-4">
                                             <button title="Tocar" class="btn-play btn-player"></button>
                                             <button title="Pause" class="btn-pause btn-player"></button>
-                                            <button title="Transcrição" data-bs-toggle="modal"
-                                                data-bs-target="#modal-transcricao-audio"
-                                                class="btn-transcricao btn-player"></button>
-                                            <div class="timestamp">00:00/00:00</div>
                                         </div>
                                         <div class="col-12 mt-2 col-lg-8 mt-lg-0">
                                             <input type="range" value="0" max="100" step="any">
                                         </div>
                                     </div>
-            
                                 </div>
+                                <p>- <em>I drink water</em> (eu bebo água).</p>
+
+                                <div class="sesc-audio-player no-print">
+                                    <audio>
+                                        <source src="./audio/american2.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-12 col-lg-4">
+                                            <button title="Tocar" class="btn-play btn-player"></button>
+                                            <button title="Pause" class="btn-pause btn-player"></button>
+                                        </div>
+                                        <div class="col-12 mt-2 col-lg-8 mt-lg-0">
+                                            <input type="range" value="0" max="100" step="any">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>- <em>See you later</em> (nos vemos mais tarde).</p>                             
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc up" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- modal mapa audio 1-->
+
+                <!-- modal mapa audio 1-->
+                <div class="modal fade no-print" id="audio-2" tabindex="-1" role="dialog"
+                aria-labelledby="transcricao-title" aria-hidden="false">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="transcricao-title">
+                                    Inglês britânico
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"><i class="fa fa-times"></i></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="sesc-audio-player no-print">
+                                    <audio>
+                                        <source src="./audio/british1.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-12 col-lg-4">
+                                            <button title="Tocar" class="btn-play btn-player"></button>
+                                            <button title="Pause" class="btn-pause btn-player"></button>
+                                        </div>
+                                        <div class="col-12 mt-2 col-lg-8 mt-lg-0">
+                                            <input type="range" value="0" max="100" step="any">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>- <em>I drink water</em> (eu bebo água).</p>
+
+                                <div class="sesc-audio-player no-print">
+                                    <audio>
+                                        <source src="./audio/british2.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <div class="row g-0 align-items-center">
+                                        <div class="col-12 col-lg-4">
+                                            <button title="Tocar" class="btn-play btn-player"></button>
+                                            <button title="Pause" class="btn-pause btn-player"></button>
+                                        </div>
+                                        <div class="col-12 mt-2 col-lg-8 mt-lg-0">
+                                            <input type="range" value="0" max="100" step="any">
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>- <em>See you later</em> (nos vemos mais tarde).</p>                             
                             </div>
                             <div class="modal-footer justify-content-center">
                                 <button type="button" class="btn-sesc up" data-bs-dismiss="modal">Fechar</button>
