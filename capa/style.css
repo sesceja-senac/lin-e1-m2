@@ -1,0 +1,154 @@
+@font-face {
+  font-family: roboto;
+  src: url(roboto.ttf);
+}
+
+@font-face {
+  font-family: roboto-black;
+  src: url(roboto-black.ttf);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/tela-inicial-bg.png);
+  background-size: 100% 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.capa {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-size: 100% 100%;
+}
+
+.capa__left {
+  position: relative;
+  width: 57%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capa__left_img {
+  height: 41vw;
+  position: absolute
+}
+
+.capa__left_img--one {
+  transform: rotateZ(-5deg);
+}
+
+.capa__right {
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+
+.capa__right a {
+  text-decoration: none;
+}
+
+.capa_menu_option {
+  height: 128px;
+  border-radius: 20px;
+  width: 27vw;
+  margin-right: 5vw;
+  box-shadow: 10px 10px #c4c4c4;
+  padding-left: 140px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #004f53;
+  font-family: roboto-black;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.capa_menu_option:hover {
+  color: #dd7e00;
+}
+
+.capa_menu_option--one {
+  background-image: url(img/tela-inicial-icone1.png), linear-gradient(to right, #ffffff, #949494);
+}
+
+.capa_menu_option--one:hover {
+  background-image: url(img/tela-inicial-icone1-hover.png), linear-gradient(to right, #ffffff, #949494);
+}
+
+.capa_menu_option--two {
+  background-image: url(img/tela-inicial-icone2.png), linear-gradient(to right, #ffffff, #949494);
+}
+
+.capa_menu_option--two:hover {
+  background-image: url(img/tela-inicial-icone2-hover.png), linear-gradient(to right, #ffffff, #949494);
+}
+
+.capa_menu_option--trhee {
+  background-image: url(img/tela-inicial-icone3.png), linear-gradient(to right, #ffffff, #949494);
+}
+
+.capa_menu_option--trhee:hover {
+  background-image: url(img/tela-inicial-icone3-hover.png), linear-gradient(to right, #ffffff, #949494);
+}
+
+.capa__right__img--mobile {
+  width: 50vw;
+  margin-top: 30px;
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  html {
+    position: relative
+  }
+
+  .capa {
+    flex-direction: column;
+    position: relative;
+    height: auto;
+  }
+
+  .capa_menu_option {
+    width: 50vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .capa__right__img--mobile {
+    display: inline-block;
+  }
+
+  .capa__left {
+    display: none;
+  }
+
+  .capa__right {
+    padding-bottom: 40px;
+  }
+
+  .only-mobile {
+    display: block;
+  }
+}
+
+
