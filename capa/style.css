@@ -138,7 +138,7 @@ h1 {
 
 .capa_menu_option--three {
   background-image: url(img/tela-inicial-icone3.png);
-  background-position: 25px;
+  background-position: 25px !important;
 }
 
 .capa_menu_option--three:hover {
