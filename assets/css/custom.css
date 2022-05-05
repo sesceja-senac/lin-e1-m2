@@ -391,4 +391,7 @@ area {
   .view-mobile {
     display: block;
   }
+  .botoes-bandeiras {
+    flex-direction: column;
+  }
 }
