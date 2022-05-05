@@ -8,6 +8,10 @@
   src: url(roboto-black.ttf);
 }
 
+/* PRE-LOADS */
+#preload-1 {background: url('img/tela-inicial-icone1-hover.png') no-repeat -9999px -9999px;}
+#preload-2 {background: url('img/tela-inicial-icone2-hover.png') no-repeat -9999px -9999px;}
+#preload-3 {background: url('img/tela-inicial-icone3-hover.png') no-repeat -9999px -9999px;}
 
 * {
   padding: 0;
@@ -134,7 +138,7 @@ h1 {
 
 .capa_menu_option--three {
   background-image: url(img/tela-inicial-icone3.png);
-  /* , linear-gradient(to right, #ffffff, #e1e1e1) */
+  background-position: 25px;
 }
 
 .capa_menu_option--three:hover {
