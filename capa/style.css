@@ -54,10 +54,29 @@ body {
 .capa__right {
   width: auto;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   flex-direction: column;
   justify-content: center;
   gap: 25px;
+}
+
+h1 {
+  color: white;
+  font-family: roboto;
+  font-size: 40px;
+  text-align: center;
+  /* border: 3px solid white; */
+  
+  margin-bottom: 10px;
+  width: 620px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: -20px;
+  /* box-shadow: 1px 2px 4px #333; */
+  height: 108px;
+  box-sizing: border-box;
+  padding-top: 25px;
+  border-radius: 18px;
 }
 
 .capa__right a {
@@ -65,51 +84,63 @@ body {
 }
 
 .capa_menu_option {
-  height: 128px;
+  height: 108px;
   border-radius: 20px;
   width: 27vw;
   margin-right: 5vw;
-  box-shadow: 10px 10px #f7f7f7;
+  /* box-shadow: 10px 10px #f7f7f7; */
+  /* background-color: rgba(255,255,255,.5); */
+  background-color: transparent;
+  border: 2px solid white;
+  box-shadow: 2px 2px 3px #333;
+  color: white;
   padding-left: 140px;
   display: flex;
   align-items: center;
   font-size: 20px;
   text-transform: uppercase;
-  color: #004f53;
+  /* color: #004f53; */
   font-family: roboto-black;
   background-repeat: no-repeat;
   background-position: left center;
 }
 
 .capa_menu_option:hover {
-  color: #dd7e00;
+  color: white;
 }
 
 .capa_menu_option--one {
-  background-image: url(img/tela-inicial-icone1.png), linear-gradient(to right, #ffffff, #c1c1c1);
+  background-image: url(img/tela-inicial-icone1.png);
+  /*  */
+  /* , linear-gradient(to right, #ffffff, #e1e1e1) */
 }
 
 .capa_menu_option--one:hover {
-  background-image: url(img/tela-inicial-icone1-hover.png), linear-gradient(to right, #ffffff, #c1c1c1);
-  margin-left: -30px;
+  background-image: url(img/tela-inicial-icone1-hover.png);
+  /* , linear-gradient(to right, #ffffff, #e1e1e1) */
+  
 }
 
 .capa_menu_option--two {
-  background-image: url(img/tela-inicial-icone2.png), linear-gradient(to right, #ffffff, #c1c1c1);
+  background-image: url(img/tela-inicial-icone2.png);
+  /* , linear-gradient(to right, #ffffff, #e1e1e1) */
 }
 
 .capa_menu_option--two:hover {
-  background-image: url(img/tela-inicial-icone2-hover.png), linear-gradient(to right, #ffffff, #c1c1c1);
-  margin-left: -30px;
+  background-image: url(img/tela-inicial-icone2-hover.png);
+  /* , linear-gradient(to right, #ffffff, #e1e1e1) */
+  
 }
 
 .capa_menu_option--three {
-  background-image: url(img/tela-inicial-icone3.png), linear-gradient(to right, #ffffff, #c1c1c1);
+  background-image: url(img/tela-inicial-icone3.png);
+  /* , linear-gradient(to right, #ffffff, #e1e1e1) */
 }
 
 .capa_menu_option--three:hover {
-  background-image: url(img/tela-inicial-icone3-hover.png), linear-gradient(to right, #ffffff, #c1c1c1);
-  margin-left: -30px;
+  background-image: url(img/tela-inicial-icone3-hover.png);
+  /* , linear-gradient(to right, #ffffff, #e1e1e1) */
+  
 }
 
 .capa__right__img--mobile {
