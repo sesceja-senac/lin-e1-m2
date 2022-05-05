@@ -146,6 +146,8 @@ h1 {
 .capa__right__img--mobile {
   width: 50vw;
   margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
   display: none;
 }
 
@@ -153,7 +155,8 @@ h1 {
 
 @media only screen and (max-width: 768px) {
   html {
-    position: relative
+    position: relative;
+    background-attachment: fixed;
   }
 
   .capa {
@@ -166,6 +169,8 @@ h1 {
     width: 50vw;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 135px;
+    font-size: 18px;
   }
 
   .capa__right__img--mobile {
@@ -182,6 +187,10 @@ h1 {
 
   .only-mobile {
     display: block;
+  }
+
+  h1 {
+    width: 100%;
   }
 }
 
