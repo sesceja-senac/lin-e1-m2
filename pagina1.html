@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/fa/css/all.min.css">
     <link rel="stylesheet" href="assets/css/template.css">
     <link rel="stylesheet" href="assets/print/print.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
     <link rel="stylesheet" href="assets/css/custom.css">
    
 
@@ -300,10 +301,10 @@
 
                 <div class="btns-publi flex no-print" aria-hidden="true">
                     <div class="btns-publi__btn--one" data-bs-toggle="modal" data-bs-target="#modal-publi-1">
-                        #Publi – <em>Influencer</em> <br> masculino
+                        <p class="btn-0">#Publi – <em>Influencer</em> <br> masculino</p>
                     </div>
                     <div class="btns-publi__btn--two" data-bs-toggle="modal" data-bs-target="#modal-publi-2">
-                        #Publi – <em>Influencer</em> <br> feminina
+                        <p class="btn-0">#Publi – <em>Influencer</em> <br> feminina</p>
                     </div>
                 </div>
 
@@ -414,10 +415,10 @@
                 <p>Em 2017, uma pesquisadora da Universidade Federal do Rio de Janeiro fez um estudo comparando as diferentes formas de utilizar a linguagem em redes sociais pelos usuários dos gêneros masculino e feminino. Ela constatou, em sua pesquisa, que os diferentes gêneros têm escolhas de vocabulário e de construção de frases um tanto diferentes uns dos outros, como, por exemplo:</p>
 
                 <div class="cards flex no-print" aria-hidden="true">
-                    <div class="cards__card">
+                    <div data-aos="flip-right" data-aos-duration="1200" data-aos-offset="200" class="cards__card">
                         <figure><img src="./images/card-1.png" alt=""></figure>
                     </div>
-                    <div class="cards__card">
+                    <div data-aos="flip-left" data-aos-duration="1200" data-aos-offset="200" class="cards__card">
                         <figure><img src="./images/card-2.png" alt=""></figure>
                     </div>
                 </div>  
@@ -456,7 +457,7 @@
 
                 <div class="btns-publi flex no-print">
                     <div class="btns-publi__btn--trhee" data-bs-toggle="modal" data-bs-target="#modal-publi-3">
-                        #Publi com variações <br> social e linguística
+                        <p class="btn-0">#Publi com variações <br> social e linguística</p>
                     </div>
                 </div>
 
@@ -509,10 +510,10 @@
 
                 <div class="btns-publi flex no-print">
                     <div class="btns-publi__btn--four" data-bs-toggle="modal" data-bs-target="#modal-publi-4">
-                        #Publi com variação geográfica – Nordeste
+                        <p class="btn-0">#Publi com variação geográfica – Nordeste</p>
                     </div>
                     <div class="btns-publi__btn--five" data-bs-toggle="modal" data-bs-target="#modal-publi-5">
-                        #Publi com variação geográfica – Sul
+                        <p class="btn-0">#Publi com variação geográfica – Sul</p>
                     </div>
                 </div>
 
@@ -1017,6 +1018,8 @@
     <script src="assets/print/template.config.js"></script>
     <script src="assets/js/audio-player.js"></script>
     <script src="assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>AOS.init()</script>
     <script src="assets/js/geral.js"></script>
     <script>
         var scriptElem=document.createElement("script");
