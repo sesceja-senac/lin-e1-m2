@@ -18,7 +18,7 @@ html {
   position: relative;
   height: 100%;
   width: 100%;
-  background-image: url(./img/tela-inicial-bg.png);
+  background-image: url(./img/bg_espelhado.png);
   background-size: 100% 100%;
 }
 
@@ -69,7 +69,7 @@ body {
   border-radius: 20px;
   width: 27vw;
   margin-right: 5vw;
-  box-shadow: 10px 10px #c4c4c4;
+  box-shadow: 10px 10px #f7f7f7;
   padding-left: 140px;
   display: flex;
   align-items: center;
@@ -86,27 +86,30 @@ body {
 }
 
 .capa_menu_option--one {
-  background-image: url(img/tela-inicial-icone1.png), linear-gradient(to right, #ffffff, #949494);
+  background-image: url(img/tela-inicial-icone1.png), linear-gradient(to right, #ffffff, #c1c1c1);
 }
 
 .capa_menu_option--one:hover {
-  background-image: url(img/tela-inicial-icone1-hover.png), linear-gradient(to right, #ffffff, #949494);
+  background-image: url(img/tela-inicial-icone1-hover.png), linear-gradient(to right, #ffffff, #c1c1c1);
+  margin-left: -30px;
 }
 
 .capa_menu_option--two {
-  background-image: url(img/tela-inicial-icone2.png), linear-gradient(to right, #ffffff, #949494);
+  background-image: url(img/tela-inicial-icone2.png), linear-gradient(to right, #ffffff, #c1c1c1);
 }
 
 .capa_menu_option--two:hover {
-  background-image: url(img/tela-inicial-icone2-hover.png), linear-gradient(to right, #ffffff, #949494);
+  background-image: url(img/tela-inicial-icone2-hover.png), linear-gradient(to right, #ffffff, #c1c1c1);
+  margin-left: -30px;
 }
 
-.capa_menu_option--trhee {
-  background-image: url(img/tela-inicial-icone3.png), linear-gradient(to right, #ffffff, #949494);
+.capa_menu_option--three {
+  background-image: url(img/tela-inicial-icone3.png), linear-gradient(to right, #ffffff, #c1c1c1);
 }
 
-.capa_menu_option--trhee:hover {
-  background-image: url(img/tela-inicial-icone3-hover.png), linear-gradient(to right, #ffffff, #949494);
+.capa_menu_option--three:hover {
+  background-image: url(img/tela-inicial-icone3-hover.png), linear-gradient(to right, #ffffff, #c1c1c1);
+  margin-left: -30px;
 }
 
 .capa__right__img--mobile {
