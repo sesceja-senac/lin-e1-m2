@@ -857,5 +857,7 @@ iframe, iframe.youtube-pl{
   text-align: center !important;
 }
 
-
+.sr-only:not(.print){
+  display: none;
+}
 

@@ -388,5 +388,10 @@ p{
 
 }
 
+.sr-only:not(.print){
+  display: none;
+}
+
+
 
 }
