@@ -531,6 +531,7 @@ area {
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-bottom: 30px;
 }
 .botoes-bandeiras img {
   transition: 300ms;
@@ -577,6 +578,58 @@ figure img{
   display: block;
   margin-bottom: 50px;
 }
+
+
+.painel-exemplos{
+  background: url('../../images/ex_painel.png') no-repeat;
+  background-size: 100%;
+  width: 500px;
+  height: 424px;
+  margin: 40px auto;
+}
+.btn-exemplos{
+  border: none;
+  position: absolute;
+  transition: all 0.2s;
+}
+.btn-exemplo01{
+  background: url('../../images/ex1.png') no-repeat;
+  background-size: 100%;
+  width: 192px;
+  height: 98px;
+  margin-left: 250px;
+  margin-top: 10px;
+}
+.btn-exemplo02{
+  background: url('../../images/ex2.png') no-repeat;
+  background-size: 100%;
+  width: 198px;
+  height: 98px;
+  margin-left: 284px;
+  margin-top: 110px;
+}
+.btn-exemplo03{
+  background: url('../../images/ex3.png') no-repeat;
+  background-size: 100%;
+  width: 181px;
+  height: 95px;
+  margin-left: 300px;
+  margin-top: 222px;
+}
+.btn-exemplo04{
+  background: url('../../images/ex4.png') no-repeat;
+  background-size: 100%;
+  width: 200px;
+  height: 104px;
+  margin-left: 272px;
+  margin-top: 314px;
+}
+
+.btn-exemplo01:hover{background-image: url('../../images/ex1_hover.png');}
+.btn-exemplo02:hover{background-image: url('../../images/ex2_hover.png');}
+.btn-exemplo03:hover{background-image: url('../../images/ex3_hover.png');}
+.btn-exemplo04:hover{background-image: url('../../images/ex4_hover.png');}
+
 
 @media only screen and (min-width: 901px) {
   .mapa-mobile{display: none;}
