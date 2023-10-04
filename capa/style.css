@@ -36,7 +36,7 @@ p{
 .img-titulo{
   background: url('img/titulo.png') no-repeat bottom;
   background-size: 100%;
-  width: 770px;
+  width: 980px;
   height: 100%;
   position: absolute;
   left: 0;
@@ -50,6 +50,7 @@ p{
   height: 105px;
   right: 15px;
   top: 15px;
+  filter: drop-shadow(#537271 4px 3px 0px);
 }
 .titulo_area{
   font-family: PaytoneOne-Regular;
@@ -69,8 +70,8 @@ p{
   background: url('img/personagem.png') no-repeat center;
   background-size: 100%;
   position: absolute;
-  width: 400px;
-  height: 272px;
+  width: 500px;
+  height: 341px;
   right: 15px;
   bottom: 0px;
 }
@@ -180,6 +181,16 @@ p{
 }
 
 
+@media screen and (max-width: 1440px){
+  .img-titulo{
+    width: 770px;
+  }
+  .img-personagens{
+    width: 400px;
+    height: 272px;
+  }
+}
+
 @media screen and (max-width: 820px){
   .btn-iniciar{
     top: 320px;
@@ -236,7 +247,6 @@ p{
     top: unset;
     bottom: 10px;
     left: 10px;
-    filter: drop-shadow(#537271 4px 3px 0px);
   }
   .titulo_area{
     font-size: 36px;
