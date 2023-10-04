@@ -101,8 +101,8 @@ p{
   z-index: 100;
 }
 .modal-video {
-  background: url('img/Video-apresentacao-gd.png');
-  width: 1120px;
+  background: url('img/video_bg.png');
+  width: 922px;
   height: 700px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ p{
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-left: -560px;
+  margin-left: -461px;
   margin-top: -350px;
 }
 .wrapper{
@@ -155,14 +155,11 @@ p{
   margin-bottom: 5px;
 }
 .video-pq {
-  height: 150px;
-  width: 150px;
-  background-image: url('img/Video-apresentacao-pq.png');
-  background-size: contain;
+  height: 200px;
+  width: 191px;
+  background: url('img/btn-modal_video.png') no-repeat;
+  background-size: 100%;
   background-position: center;
-  display: flex;
-  padding-left: 29px;
-  padding-top: 23px;
   transition: all 0.2s;
 }
 .video-pq:hover {
@@ -214,7 +211,6 @@ p{
     height: 248px;
   }
 
-  
 }
 
 @media screen and (max-width: 768px){
