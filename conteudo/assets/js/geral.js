@@ -90,6 +90,7 @@ jQuery("document").ready(function($){
   }
 
 
+  //------ Painel Mapa ------\\
   document.querySelector('.btn-africano').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-6.png')";
     document.getElementById('texto-tooltip').innerHTML = "Inglês sul-africano";
@@ -168,6 +169,7 @@ jQuery("document").ready(function($){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
     document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
+  //------ Fim Painel Mapa ------\\
 
 });
 
