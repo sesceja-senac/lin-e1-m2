@@ -92,57 +92,81 @@ jQuery("document").ready(function($){
 
   document.querySelector('.btn-africano').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-6.png')";
+    document.getElementById('texto-tooltip').innerHTML = "Inglês sul-africano";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:block');
   })
   document.querySelector('.btn-africano').addEventListener('mouseout', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
 
   document.querySelector('.btn-britanico').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-1.png')";
+    document.getElementById('texto-tooltip').innerHTML = "Inglês britânico";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:block');
   })
   document.querySelector('.btn-britanico').addEventListener('mouseout', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
 
   document.querySelector('.btn-canadense').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-2.png')";
+    document.getElementById('texto-tooltip').innerHTML = "Inglês canadense";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:block');
   })
   document.querySelector('.btn-canadense').addEventListener('mouseout', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
 
   document.querySelector('.btn-indiano').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-7.png')";
+    document.getElementById('texto-tooltip').innerHTML = "Inglês indiano";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:block');
   })
   document.querySelector('.btn-indiano').addEventListener('mouseout', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
 
   document.querySelector('.btn-ingles01').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-3.png')";
+    document.getElementById('texto-tooltip').innerHTML = "Inglês americano";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:block');
   })
   document.querySelector('.btn-ingles01').addEventListener('mouseout', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
   document.querySelector('.btn-ingles02').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-3.png')";
+    document.getElementById('texto-tooltip').innerHTML = "Inglês americano";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:block');
   })
   document.querySelector('.btn-ingles02').addEventListener('mouseout', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
 
   document.querySelector('.btn-irlandes').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-5.png')";
+    document.getElementById('texto-tooltip').innerHTML = "Inglês irlandês";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:block');
   })
   document.querySelector('.btn-irlandes').addEventListener('mouseout', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
 
   document.querySelector('.btn-neozelandes').addEventListener('mouseover', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-4.png')";
+    document.getElementById('texto-tooltip').innerHTML = "Inglês neozelandês";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:block');
   })
   document.querySelector('.btn-neozelandes').addEventListener('mouseout', function(){
     document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+    document.getElementById('div-tooltip').setAttribute('style', 'display:none');
   })
 
 });
