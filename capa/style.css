@@ -36,7 +36,7 @@ p{
 .img-titulo{
   background: url('img/titulo.png') no-repeat bottom;
   background-size: 100%;
-  width: 980px;
+  width: 750px;
   height: 100%;
   position: absolute;
   left: 0;
@@ -79,7 +79,7 @@ p{
   background: url('img/bt_iniciar.png') no-repeat center;
   background-size: 100%;
   position: absolute;
-  width: 300px;
+  width: 240px;
   height: 89px;
   left: 50%;
   margin-left: -150px;

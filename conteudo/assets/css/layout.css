@@ -172,7 +172,7 @@ a.btn-sesc{
     /* background-image: url(../img/bg/bg-esq.png), url(../img/bg/bg-dir.png); */
     background-position: 0, Calc(100vw - 461px);
     background-repeat: repeat-y; 
-    background-attachment: fixed;
+    background-attachment: fixed !important;
 }
 
 header.sesc{
