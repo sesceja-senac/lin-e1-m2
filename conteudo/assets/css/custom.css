@@ -657,6 +657,98 @@ figure img {
   background-image: url("../../images/ex4_hover.png");
 }
 
+
+/*---------- Painel Mapa ----------*/
+
+.painel-mapa{
+  background: url('../../images/mapa/mapa.png') no-repeat;
+  background-size: 100%;
+  width: 846px;
+  height: 442px;
+  margin: 60px auto 30px auto;
+  transition: all 0.3s;
+}
+.btn-paises{
+  position: absolute;
+  background-size: 100% !important;
+  cursor: pointer;
+}
+.btn-africano{
+  width: 38px;
+  height: 34px;
+  margin-top: 334px;
+  margin-left: 431px;
+}
+.btn-britanico{
+  width: 20px;
+  height: 31px;
+  margin-top: 124px;
+  margin-left: 379px;
+  border-radius: 20px;
+}
+.btn-canadense{
+  width: 215px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 64px;
+  border-radius: 220px 50px 20px 130px;
+}
+.btn-indiano{
+  width: 66px;
+  height: 68px;
+  margin-top: 196px;
+  margin-left: 553px;
+}
+.btn-ingles01{
+  width: 68px;
+  height: 64px;
+  margin-top: 73px;
+  margin-left: 0px;
+}
+.btn-ingles02{
+  width: 140px;
+  height: 70px;
+  margin-top: 155px;
+  margin-left: 105px;
+  border-radius: 0px 00px 60px 60px;
+}
+.btn-irlandes{
+  width: 14px;
+  height: 15px;
+  margin-top: 136px;
+  margin-left: 367px;
+  border-radius: 6px;
+}
+.btn-neozelandes{
+  width: 14px;
+  height: 36px;
+  margin-top: 369px;
+  margin-left: 788px;
+  transform: rotate(42deg);
+}
+
+#div-tooltip{
+  background-color: #fff;
+  border: #00838d solid 4px;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  z-index: 10;
+  padding-top: 14px;
+  margin-left: -100px;
+  left: 50%;
+  margin-top: -40px;
+  display: none;
+  transition: all 0.4s;
+}
+#texto-tooltip{
+  text-align: center;
+}
+
+/*---------- /Painel Mapa ----------*/
+
+
 @media only screen and (min-width: 901px) {
   .mapa-mobile {
     display: none;
@@ -664,6 +756,10 @@ figure img {
 }
 
 @media only screen and (max-width: 900px) {
+  .painel-mapa{
+    display: none;
+  }
+
   .map-img {
     display: none;
   }
