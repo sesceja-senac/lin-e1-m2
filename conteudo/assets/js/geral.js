@@ -89,5 +89,61 @@ jQuery("document").ready(function($){
     document.body.style.backgroundImage = "url('images/bg_pg5.jpg')";
   }
 
+
+  document.querySelector('.btn-africano').addEventListener('mouseover', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-6.png')";
+  })
+  document.querySelector('.btn-africano').addEventListener('mouseout', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+  })
+
+  document.querySelector('.btn-britanico').addEventListener('mouseover', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-1.png')";
+  })
+  document.querySelector('.btn-britanico').addEventListener('mouseout', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+  })
+
+  document.querySelector('.btn-canadense').addEventListener('mouseover', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-2.png')";
+  })
+  document.querySelector('.btn-canadense').addEventListener('mouseout', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+  })
+
+  document.querySelector('.btn-indiano').addEventListener('mouseover', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-7.png')";
+  })
+  document.querySelector('.btn-indiano').addEventListener('mouseout', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+  })
+
+  document.querySelector('.btn-ingles01').addEventListener('mouseover', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-3.png')";
+  })
+  document.querySelector('.btn-ingles01').addEventListener('mouseout', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+  })
+  document.querySelector('.btn-ingles02').addEventListener('mouseover', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-3.png')";
+  })
+  document.querySelector('.btn-ingles02').addEventListener('mouseout', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+  })
+
+  document.querySelector('.btn-irlandes').addEventListener('mouseover', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-5.png')";
+  })
+  document.querySelector('.btn-irlandes').addEventListener('mouseout', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+  })
+
+  document.querySelector('.btn-neozelandes').addEventListener('mouseover', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa-4.png')";
+  })
+  document.querySelector('.btn-neozelandes').addEventListener('mouseout', function(){
+    document.getElementById('painel-mapa').style.backgroundImage = "url('images/mapa/mapa.png')";
+  })
+
 });
 
