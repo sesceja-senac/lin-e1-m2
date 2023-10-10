@@ -353,20 +353,23 @@
   font-size: smaller;	
   }
   .pagina table{
-  display: table;
-  border-collapse: separate;
-  border-spacing: 2px;
-  border-color: gray;	
-  }
-  .pagina tbody{
-  display: table-row-group;
-  vertical-align: middle;
-  border-color: inherit;	
-  }
-  .pagina td{
-  display: table-cell;
-  vertical-align: inherit;
-  }	
+    display: inline-block;
+    border-collapse: separate;
+    border-color: gray;	
+    text-align: center;
+    margin: 30px auto;
+    }
+    .pagina tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;	
+    }
+    .pagina td{
+    display: table-cell;
+    vertical-align: inherit;
+    border: 1px solid;
+    padding: 10px;
+    }	
   
   .pagina tfoot{
   display: table-footer-group;

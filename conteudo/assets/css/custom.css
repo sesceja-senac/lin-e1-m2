@@ -3,7 +3,7 @@ body {
   background-position: center !important;
   background-attachment: initial !important;
 }
-
+p{word-wrap: break-word;}
 .container {
   background-color: transparent;
   padding: 4px 40px;
@@ -696,6 +696,7 @@ figure img {
   .pg1-bg_dir4 {
     display: none;
   }
+  .pagina.pg2 figure img, .pagina.pg4 figure img, .cards__card figure{margin: 0;}
 }
 
 @media only screen and (max-width: 768px) {
@@ -719,6 +720,10 @@ figure img {
 }
 
 @media only screen and (max-width: 480px) {
+  .painel-exemplos{
+    transform: scale(0.8);
+    margin-left: -90px;
+  }
   .botoes-bandeiras {
     align-items: center;
     width: 30%;

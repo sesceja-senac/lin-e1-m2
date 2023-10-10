@@ -391,7 +391,17 @@ p{
 .sr-only:not(.print){
   display: none;
 }
-
-
+table{
+  width: 100%;
+  text-align: center;
+  margin: 30px auto;
+}
+td{
+  display: table-cell;
+    vertical-align: inherit;
+    border: 1px solid;
+    padding: 10px;
+}
+.tooltip-eja{border-bottom: 1px dashed;}
 
 }
