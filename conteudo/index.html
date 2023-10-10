@@ -223,7 +223,7 @@
             <!-- carrosel -->
             <div
               id="carouselId"
-              class="carousel slide sesc no-print view-desk"
+              class="carousel slide sesc no-print d-none d-sm-block"
               data-bs-ride=""
             >
               <div class="carousel-inner" role="listbox">
@@ -304,7 +304,7 @@
               </ol>
             </div>
             <!-- /carrosel -->
-            <div class="view-mobile no-print">
+            <div class="d-block d-sm-none no-print" aria-hidden="true">
               <div>
                 <p>
                   Anúncio veiculado em uma revista no final da década de 1990
@@ -438,7 +438,7 @@
             <!-- carrosel -->
             <div
               id="carouselId2"
-              class="carousel slide sesc no-print"
+              class="carousel slide sesc no-print d-none d-sm-block"
               data-bs-ride=""
             >
               <div class="carousel-inner" role="listbox">
@@ -517,6 +517,44 @@
               </ol>
             </div>
             <!-- /carrosel -->
+            <div class="d-block d-sm-none no-print" aria-hidden="true">
+              <p>
+                Anúncio com cores vivas e modelo com linguagem corporal que
+                expressa dinamismo e movimento
+              </p>
+              <figure>
+                <a href="images/figura-3.jpeg" target="_blank">
+                  <img
+                    class="carousel__img"
+                    src="images/figura-3.jpeg"
+                    class="img-fluid"
+                    alt="First slide"
+                  />
+                </a>
+                <figcaption>
+                  Figura 2 – Peça publicitária de marca esportiva <br />
+                  Fonte: Muse.World (s.d.)
+                </figcaption>
+              </figure>
+              <p>
+                Anúncio construído a partir de tons mais neutros, com
+                modelos em uma postura mais reta e elegante
+              </p>
+              <figure>
+                <a href="images/figura-4.jpeg" target="_blank">
+                  <img
+                    class="carousel__img"
+                    src="images/figura-4.jpeg"
+                    class="img-fluid"
+                    alt="Second slide"
+                  />
+                </a>
+                <figcaption>
+                  Figura 3 – Peça publicitária de moda masculina <br />
+                  Fonte: Dazed (s.d.)
+                </figcaption>
+              </figure>
+            </div>
             <!-- acessivel carrossel -->
             <div class="acessivel print">
               <h4>Anúncio com cores vivas e modelo com linguagem corporal que expressa dinamismo e movimento</h4>
@@ -639,7 +677,8 @@
                 </p>
               </div>
             </div>
-            <div class="sr-only no-print">
+            <div class="sr-only print">
+              <h4><i>Publipost</i> de um <i>influencer</i> masculino</h4>
               <p>
                 <em>Post</em> feito por um indivíduo do sexo masculino
                 divulgando uma barra proteica. Na publicação, ele utiliza frases
@@ -653,7 +692,7 @@
                   Fonte: Scoppetta (2022)
                 </figcaption>
               </figure>
-              <p>
+              <p class="no-print">
                 <em>Layout</em> da rede social Instagram. Na parte de cima, no
                 formato circular, é possível ver o avatar do perfil junto aos
                 dizeres “abnerscopetta”. Abaixo, a foto de um homem branco, de
@@ -666,6 +705,7 @@
                 #scoppettaindicabold” e as hashtags “#bold #boldsnacks
                 #barradeproteina #proteina #tortadelimao #publi”.
               </p>
+              <h4><i>Publipost</i> de uma <i>influencer</i> feminina</h4>
               <p>
                 A publicação utiliza expressões mais próximas à língua falada,
                 como no uso de mais vogais na palavra “apaixonadaaaa” e nas
@@ -680,7 +720,7 @@
                 </figcaption>
               </figure>
 
-              <p>
+              <p class="no-print">
                 Descrição da imagem: Layout da rede social Instagram. Na parte
                 superior da imagem, é possível ver o avatar do perfil
                 acompanhado dos dizeres “lorranecabral”. Abaixo, consta a foto
@@ -691,16 +731,16 @@
                 e roxo, os dizeres “Skin Booster”. A foto consta como “curtida”
                 por várias pessoas e, na descrição, contém o seguinte texto:
               </p>
-              <p>“Quem aí ama ter a pele com aspecto mais jovem?</p>
-              <p>Pois o Skin Booster chegou!</p>
-              <p>- Diminui rugas de expressão;</p>
-              <p>- Aumenta firmeza da pele;</p>
-              <p>- Tem efeito preenchedor e muito mais…</p>
-              <p>
+              <p class="no-print">“Quem aí ama ter a pele com aspecto mais jovem?</p>
+              <p class="no-print">Pois o Skin Booster chegou!</p>
+              <p class="no-print">- Diminui rugas de expressão;</p>
+              <p class="no-print">- Aumenta firmeza da pele;</p>
+              <p class="no-print">- Tem efeito preenchedor e muito mais…</p>
+              <p class="no-print">
                 Já estou apaixonadaaaa, vou testar essa semana e postar tudo nos
                 stories… Fiquem ligadinhas.”
               </p>
-              <p>
+              <p class="no-print">
                 Constam ainda, na imagem, as hashtags “#lifting
                 #cuidadoscomapele #pele #publi”.
               </p>
@@ -812,7 +852,7 @@
                 </p>
               </div>
             </div>
-            <div class="sr-only no-print">
+            <div class="sr-only print">
               <h5>
                 <em>Publipost</em> de <em>influencer</em> masculino com
                 variações social e linguística
@@ -918,7 +958,7 @@
                 <p class="btn-0">#Publi com variação geográfica – Sul</p>
               </div>
             </div>
-            <div class="sr-only">
+            <div class="sr-only print">
               <h5><em>Publipost</em> com variação geográfica – Nordeste</h5>
               <p>
                 Neste exemplo, Juliette Freire, influenciadora paraibana e que
@@ -958,7 +998,7 @@
               </div>
               <!-- acessivel -->
             </div>
-            <div class="sr-only no-print">
+            <div class="sr-only print">
               <h5><em>Publipost </em>com variação geográfica – Sul</h5>
               <p>
                 Neste exemplo, o <em>publipost</em> é feito pelo perfil do
@@ -1226,7 +1266,7 @@
               <map name="image-map">
                 <area
                   class="pin-inglaterra"
-                  alt="inglaterra"
+                  alt="Inglaterra"
                   title="Inglês britânico"
                   coords="405,162,407,152,403,142,385,106,397,103,423,153,417,160"
                   shape="poly"
@@ -1276,108 +1316,44 @@
               </map>
             </div>
 
-            <div class="sr-only no-print">
+            <div class="sr-only print">
               <p>Mapa do mundo mostrando os países com variações do inglês.</p>
-              <ul>
-                <li>British english – Inglês britânico</li>
-                <li>American english – Inglês americano</li>
-                <li>Canadian english – Inglês canadense</li>
-                <li>New Zealand english – Inglês neozelandês</li>
-                <li>Irish english – Inglês irlandês</li>
-                <li>South Africa english – Inglês sul-africano</li>
-                <li>Indian english – Inglês indiano</li>
-              </ul>
-            </div>
-
-            <div class="mapa-mobile">
               <img src="images/mapa/mapa.svg" class="img-fluid mx-auto mb-4" />
-              <div class="row no-print">
-                <div class="col-6">
-                  <img
-                    src="images/mapa/britanico.svg"
-                    class="img-fluid d-block mx-auto text-center britanico"
-                  />
-                </div>
-                <div class="col-6">
-                  <img
-                    src="images/mapa/irlandes.svg"
-                    class="img-fluid d-block mx-auto text-center irlandes1"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-6">
-                  <p class="text-center">
-                    <strong>BRITISH ENGLISH - INGLÊS BRITÂNICO</strong>
-                  </p>
-                </div>
-                <div class="col-6">
-                  <p class="text-center">
-                    <strong>IRISH ENGLISH - INGLÊS IRLANDÊS</strong>
-                  </p>
-                </div>
-              </div>
-
-              <div class="row no-print">
-                <div class="col-6">
-                  <img
-                    src="images/mapa/canadense.svg"
-                    class="img-fluid d-block mx-auto text-center canadense"
-                  />
-                </div>
-                <div class="col-6">
-                  <img
-                    src="images/mapa/indiano.svg"
-                    class="img-fluid d-block mx-auto text-center indiano"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-6">
-                  <p class="text-center">
-                    <strong>CANADIAN ENGLISH - INGLÊS CANADENSE</strong>
-                  </p>
-                </div>
-                <div class="col-6">
-                  <p class="text-center">
-                    <strong>INDIAN ENGLISH - INGLÊS INDIANO</strong>
-                  </p>
-                </div>
-              </div>
-
-              <div class="row no-print">
-                <div class="col-6">
-                  <img
-                    src="images/mapa/africano.svg"
-                    class="img-fluid d-block mx-auto text-center africano"
-                  />
-                </div>
-                <div class="col-6">
-                  <img
-                    src="images/mapa/ingles.svg"
-                    class="img-fluid d-block mx-auto text-center ingles"
-                  />
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-6">
-                  <p class="text-center">
-                    <strong>SOUTH AFRICA ENGLISH - INGLÊS SUL-AFRICANO</strong>
-                  </p>
-                </div>
-                <div class="col-6">
-                  <p class="text-center">
-                    <strong>AMERICAN ENGLISH - INGLÊS AMERICANO</strong>
-                  </p>
-                </div>
-              </div>
-              <img
-                src="images/mapa/neozelandes.svg"
-                class="img-fluid d-block mx-auto text-center neozelandes no-print"
-              />
-              <p class="text-center">
-                <strong>NEW ZEALAND ENGLISH - INGLÊS NEOZELANDÊS</strong>
-              </p>
+              <table class="mx-auto" aria-hidden="true">
+                <tbody>
+                  <tr>
+                    <td>British english</td>
+                    <td>Inglês britânico</td>
+                  </tr>
+                  <tr>
+                    <td>American english</td>
+                    <td>Inglês americano</td>
+                  </tr>
+                  <tr>
+                    <td>Canadian english</td>
+                    <td>Inglês canadense</td>
+                  </tr>
+                  <tr>
+                    <td>New Zealand english</td>
+                    <td>Inglês neozelandês</td>
+                  </tr>
+                  <tr>
+                    <td>Irish english</td>
+                    <td>Inglês irlandês</td>
+                  </tr>
+                  <tr>
+                    <td>South Africa english</td>
+                    <td>Inglês sul-africano</td>
+                  </tr>
+                  <tr>
+                    <td>Indian english</td>
+                    <td>Inglês indiano</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="d-block d-lg-none no-print" aria-hidden="true">
+              <img src="images/Mob_mapa.png" class="img-fluid mx-auto my-4 d-block" />
             </div>
 
             <p>
@@ -1463,68 +1439,68 @@
               </table>
             </div>
             <div class="table-responsive only-print">
-              <table class="sesc" style="border: 2px dashed grey">
-                <tr style="border: 2px dashed grey">
-                  <td style="border-right: dashed">
+              <table class="sesc">
+                <tr>
+                  <td>
                     <em>USA English </em>(inglês americano)
                   </td>
-                  <td style="border-right: dashed">
+                  <td>
                     <em>British English</em> (inglês britânico)
                   </td>
                   <td>Portuguese (português brasileiro)</td>
                 </tr>
 
-                <tr style="border: 2px dashed grey">
-                  <td style="border-right: dashed"><em>Appartment</em></td>
-                  <td style="border-right: dashed"><em>Flat</em></td>
+                <tr>
+                  <td><em>Appartment</em></td>
+                  <td><em>Flat</em></td>
                   <td>Apartamento</td>
                 </tr>
 
-                <tr style="border: 2px dashed grey">
-                  <td style="border-right: dashed"><em>Sidewalk</em></td>
-                  <td style="border-right: dashed"><em>Pavement</em></td>
+                <tr>
+                  <td><em>Sidewalk</em></td>
+                  <td><em>Pavement</em></td>
                   <td>Calçada</td>
                 </tr>
 
-                <tr style="border: 2px dashed grey">
-                  <td style="border-right: dashed"><em>Truck</em></td>
-                  <td style="border-right: dashed"><em>Lorry</em></td>
+                <tr>
+                  <td><em>Truck</em></td>
+                  <td><em>Lorry</em></td>
                   <td>Caminhão</td>
                 </tr>
 
-                <tr style="border: 2px dashed grey">
-                  <td style="border-right: dashed"><em>Lift</em></td>
-                  <td style="border-right: dashed"><em>Elevator</em></td>
+                <tr>
+                  <td><em>Lift</em></td>
+                  <td><em>Elevator</em></td>
                   <td>Elevador</td>
                 </tr>
 
                 <tr>
-                  <td style="border-right: dashed"><em>Bathroom</em></td>
-                  <td style="border-right: dashed"><em>Toilet</em></td>
+                  <td><em>Bathroom</em></td>
+                  <td><em>Toilet</em></td>
                   <td>Banheiro</td>
                 </tr>
 
                 <tr>
-                  <td style="border-right: dashed"><em>Downtown</em></td>
-                  <td style="border-right: dashed"><em>City centre</em></td>
+                  <td><em>Downtown</em></td>
+                  <td><em>City centre</em></td>
                   <td>Centro da cidade</td>
                 </tr>
 
                 <tr>
-                  <td style="border-right: dashed"><em>Student</em></td>
-                  <td style="border-right: dashed"><em>Pupil</em></td>
+                  <td><em>Student</em></td>
+                  <td><em>Pupil</em></td>
                   <td>Aluno</td>
                 </tr>
 
                 <tr>
-                  <td style="border-right: dashed"><em>Candy</em></td>
-                  <td style="border-right: dashed"><em>Sweets</em></td>
+                  <td><em>Candy</em></td>
+                  <td><em>Sweets</em></td>
                   <td>Balas</td>
                 </tr>
 
                 <tr>
-                  <td style="border-right: dashed"><em>Movie theater</em></td>
-                  <td style="border-right: dashed"><em>Cinema</em></td>
+                  <td><em>Movie theater</em></td>
+                  <td><em>Cinema</em></td>
                   <td>Cinema</td>
                 </tr>
               </table>
@@ -1608,7 +1584,7 @@
             </p>
 
             <!-- carrosel -->
-            <div id="carouselId4" class="carousel slide sesc" data-bs-ride="">
+            <div id="carouselId4" class="carousel slide sesc d-none d-sm-block" data-bs-ride="">
               <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                   <p>Anúncio de calças em inglês americano</p>
@@ -1630,10 +1606,10 @@
                 <div class="carousel-item">
                   <p>Anúncio de calças em inglês britânico</p>
                   <figure>
-                    <a href="images/figura-11.jpeg" target="_blank">
+                    <a href="images/figura-11.png" target="_blank">
                       <img
                         class="carousel__img"
-                        src="images/figura-11.jpeg"
+                        src="images/figura-11.png"
                         class="img-fluid"
                         alt="Second slide"
                       />
@@ -1677,6 +1653,38 @@
                 ></li>
                 <li data-bs-target="#carouselId4" data-bs-slide-to="1"></li>
               </ol>
+            </div>
+            <div class="d-block d-sm-none no-print" aria-hidden="true">
+              <p>Anúncio de calças em inglês americano</p>
+              <figure>
+                <a href="images/figura-10.jpeg" target="_blank">
+                  <img
+                    class="carousel__img"
+                    src="images/figura-10.jpeg"
+                    class="img-fluid"
+                    alt="First slide"
+                  />
+                </a>
+                <figcaption>
+                  Figura 10 – Anúncio em inglês americano <br />
+                  Fonte: Cision PR Newswire (2012)
+                </figcaption>
+              </figure>
+              <p>Anúncio de calças em inglês britânico</p>
+              <figure>
+                <a href="images/figura-11.png" target="_blank">
+                  <img
+                    class="carousel__img"
+                    src="images/figura-11.png"
+                    class="img-fluid"
+                    alt="Second slide"
+                  />
+                </a>
+                <figcaption>
+                  Figura 11 – Anúncio em inglês britânico <br />
+                  Fonte: Advert Gallery (2019)
+                </figcaption>
+              </figure>
             </div>
             <div class="sr-only no-print">
               <p>
@@ -1911,7 +1919,7 @@
                 Courteney Cox.
               </p>
             </div>
-            <div class="sr-only no-print">
+            <div class="sr-only print">
               <h5>Tabu</h5>
               <p>
                 Tabu – ta·bu
@@ -2093,21 +2101,20 @@
               </p>
             </div>
             <div class="sr-only print">
-              <div class="caixa icone exemplo">
-                <p>
-                  Quando alguém está desempregado, utiliza-se o termo
-                  <em>between jobs</em> (“entre trabalhos”, no caso o que tinha
-                  e o que está por vir) ao invés de
-                  <em>unemployed</em> (desempregado).
-                </p>
-                <p>
-                  <em
-                    ><strong>Example</strong>: I am
-                    <strong>between jobs</strong></em
-                  >
-                  (estou entre um trabalho e outro).
-                </p>
-              </div>
+              <p>Exemplo 2</p>
+              <p>
+                Quando alguém está desempregado, utiliza-se o termo
+                <em>between jobs</em> (“entre trabalhos”, no caso o que tinha
+                e o que está por vir) ao invés de
+                <em>unemployed</em> (desempregado).
+              </p>
+              <p>
+                <em
+                  ><strong>Example</strong>: I am
+                  <strong>between jobs</strong></em
+                >
+                (estou entre um trabalho e outro).
+              </p>
               <p>Você conhece aquela música tema de um dos filmes do Shrek?</p>
 
               <div class="flex">
@@ -2130,41 +2137,39 @@
               </p>
             </div>
             <div class="sr-only print">
-              <div class="caixa icone exemplo">
-                <p>
-                  Outro exemplo de uso bastante comum é a expressão
-                  <em>passed away</em> ao invés de <em>died</em> para dizer que
-                  alguém morreu.
-                </p>
+              <p>Exemplo 3</p>
+              <p>
+                Outro exemplo de uso bastante comum é a expressão
+                <em>passed away</em> ao invés de <em>died</em> para dizer que
+                alguém morreu.
+              </p>
 
-                <p>
-                  <em
-                    ><strong>Example</strong>: Ton’s grandma
-                    <strong>passed away</strong> last week</em
-                  >
-                  (a avó do Tom morreu na semana passada).
-                </p>
-              </div>
+              <p>
+                <em
+                  ><strong>Example</strong>: Ton’s grandma
+                  <strong>passed away</strong> last week</em
+                >
+                (a avó do Tom morreu na semana passada).
+              </p>
             </div>
             <div class="print sr-only">
-              <div class="caixa icone exemplo">
-                <p>
-                  Por último, mas não menos utilizada e longe de abranger todos
-                  os <strong><em>euphemisms</em></strong> da língua inglesa, há
-                  a expressão <em>vertically challenged</em> ao invés de
-                  <em>short</em> para a referência a pessoas de baixa estatura.
-                  A tradução literal de <em>vertically challenged</em> seria
-                  “verticalmente desafiada”.
-                </p>
+              <p>Exemplo 4</p>
+              <p>
+                Por último, mas não menos utilizada e longe de abranger todos
+                os <strong><em>euphemisms</em></strong> da língua inglesa, há
+                a expressão <em>vertically challenged</em> ao invés de
+                <em>short</em> para a referência a pessoas de baixa estatura.
+                A tradução literal de <em>vertically challenged</em> seria
+                “verticalmente desafiada”.
+              </p>
 
-                <p>
-                  <em
-                    ><strong>Example</strong>: I am tall, but my brother is
-                    <strong>vertically challenged</strong></em
-                  >
-                  (eu sou alto, mas meu irmão é baixo).
-                </p>
-              </div>
+              <p>
+                <em
+                  ><strong>Example</strong>: I am tall, but my brother is
+                  <strong>vertically challenged</strong></em
+                >
+                (eu sou alto, mas meu irmão é baixo).
+              </p>
             </div>
 
             <p>
@@ -2193,7 +2198,7 @@
             <!-- carrosel -->
             <div
               id="carouselId5"
-              class="carousel slide sesc no-print"
+              class="carousel slide sesc print d-none d-sm-block"
               data-bs-ride=""
               aria-hidden="true"
             >
@@ -2236,7 +2241,7 @@
               </div>
 
               <button
-                class="carousel-control-prev"
+                class="carousel-control-prev no-print"
                 type="button"
                 data-bs-target="#carouselId5"
                 data-bs-slide="prev"
@@ -2249,7 +2254,7 @@
               </button>
 
               <button
-                class="carousel-control-next"
+                class="carousel-control-next no-print"
                 type="button"
                 data-bs-target="#carouselId5"
                 data-bs-slide="next"
@@ -2261,7 +2266,7 @@
                 <span class="visually-hidden">Próximo</span>
               </button>
 
-              <ol class="carousel-indicators">
+              <ol class="carousel-indicators no-print">
                 <li
                   data-bs-target="#carouselId5"
                   data-bs-slide-to="0"
@@ -2271,7 +2276,39 @@
               </ol>
             </div>
             <!-- /carrosel -->
-
+            <div class="d-block d-sm-none no-print" aria-hidden="true">
+              <figure>
+                <a href="images/Figura-14.png" target="_blank">
+                  <img
+                    class="carousel__img"
+                    src="images/Figura-14.png"
+                    class="img-fluid"
+                    alt="First slide"
+                  />
+                </a>
+                <figcaption>
+                  Figura 14 – Campanha publicitária da marca Bodyform <br />
+                  Fonte: Hypeness (2017)
+                </figcaption>
+              </figure>
+              <figure>
+                <a href="images/Figura-15.png" target="_blank">
+                  <img
+                    class="carousel__img"
+                    src="images/Figura-15.png"
+                    class="img-fluid"
+                    alt="Second slide"
+                  />
+                </a>
+                <figcaption>
+                  Figura 15 – Campanha publicitária da marca Bodyform
+                  <br />
+                  Fonte: Hypeness (2017) <br />
+                  Tradução da imagem: “Menstruações são normais. Mostrá-las
+                  também deveria ser”.
+                </figcaption>
+              </figure>
+            </div>
             <!-- acessivel -->
             <div class="sr-only no-print">
               <p>
@@ -2460,7 +2497,7 @@
             </p>
 
             <figure class="view-desk">
-              <img src="images/Figura-17.png" alt="" />
+              <img src="images/Figura-17.jpg" alt="" />
               <figcaption>
                 Figura 17 – Anúncio da Fast Shop <br />
                 Fonte: Anjos; Arraes (2015)
@@ -2469,8 +2506,8 @@
 
             <figure class="view-mobile no-print" aria-hidden="true">
               <p>Toque na imagem para ampliá-la em uma nova aba.</p>
-              <a href="images/Figura-17.png" target="_blank"
-                ><img src="images/Figura-17.png" alt=""
+              <a href="images/Figura-17.jpg" target="_blank"
+                ><img src="images/Figura-17.jpg" alt=""
               /></a>
               <figcaption>
                 Figura 17 – Anúncio da Fast Shop <br />

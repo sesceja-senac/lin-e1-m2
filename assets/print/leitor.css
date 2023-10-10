@@ -357,6 +357,10 @@
   border-collapse: separate;
   border-spacing: 2px;
   border-color: gray;	
+  width: 100%;
+  text-align: center;
+  border: 1px solid;
+  margin: 30px auto;
   }
   .pagina tbody{
   display: table-row-group;
@@ -366,6 +370,7 @@
   .pagina td{
   display: table-cell;
   vertical-align: inherit;
+  border: 1px solid;
   }	
   
   .pagina tfoot{
