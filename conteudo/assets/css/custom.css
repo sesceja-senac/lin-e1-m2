@@ -3,7 +3,9 @@ body {
   background-position: center !important;
   background-attachment: initial !important;
 }
-p{word-wrap: break-word;}
+p {
+  word-wrap: break-word;
+}
 .container {
   background-color: transparent;
   padding: 4px 40px;
@@ -11,8 +13,10 @@ p{word-wrap: break-word;}
   position: relative;
   z-index: 2;
 }
-.paginas{position: relative;}
-footer{
+.paginas {
+  position: relative;
+}
+footer {
   position: absolute;
   left: 0;
   right: 0;
@@ -127,6 +131,92 @@ footer{
   right: 0;
   width: 220px;
   margin-right: -220px;
+}
+
+/*------ PG 3 ------*/
+
+.pagina.pg3 .container {
+  background-color: #fff;
+}
+.pg3-bg_esq1,
+.pg3-bg_esq3,
+.pg3-bg_dir2,
+.pg3-bg_dir4 {
+  position: absolute;
+  z-index: 0;
+}
+.pg3-bg_esq1 {
+  width: 400px;
+  margin-left: 0px;
+}
+
+.pg3-bg_esq3 {
+  bottom: 0;
+  width: 210px;
+  margin-bottom: 25%;
+}
+
+.pg3-bg_dir2 {
+  top: 25%;
+  right: 0;
+  width: 220px;
+}
+
+.pg3-bg_dir4 {
+  bottom: 0%;
+  right: 0;
+  width: 220px;
+}
+
+/*------ PG 4 ------*/
+
+.pg4-bg_esq1,
+.pg4-bg_esq3,
+.pg4-bg_dir2,
+.pg4-bg_esq4,
+.pg4-bg_dir5 {
+  position: absolute;
+  z-index: 0;
+}
+.pg4-bg_esq1 {
+  width: 240px;
+  margin-left: 0px;
+  left: 0%;
+}
+
+.pg4-bg_esq3 {
+  top: 50%;
+  width: 400px;
+  margin-left: -155px;
+}
+
+.pg4-bg_dir2 {
+  top: 25%;
+  right: 0;
+  width: 370px;
+}
+
+.pg4-bg_esq4 {
+  bottom: 7%;
+  width: 120px;
+}
+
+.pg4-bg_dir5 {
+  bottom: 0%;
+  right: 0%;
+  width: 420px;
+}
+
+/*------ PG 5 ------*/
+
+.pg5-bg_esq {
+  position: absolute;
+  z-index: 0;
+}
+.pg5-bg_esq {
+  width: 300px;
+  bottom: 0%;
+  margin-bottom: -50px;
 }
 
 /*----------- /Elementos -----------*/
@@ -461,10 +551,10 @@ img {
 
 .tooltip-eja {
   border-bottom: 2px dashed #00838d;
-    /* padding: 0px 8px; */
-    /* border-radius: 4px; */
-    display: inline-block;
-    cursor: pointer;
+  /* padding: 0px 8px; */
+  /* border-radius: 4px; */
+  display: inline-block;
+  cursor: pointer;
 }
 
 .only-mobile {
@@ -657,69 +747,68 @@ figure img {
   background-image: url("../../images/ex4_hover.png");
 }
 
-
 /*---------- Painel Mapa ----------*/
 
-.painel-mapa{
-  background: url('../../images/mapa/mapa.png') no-repeat;
+.painel-mapa {
+  background: url("../../images/mapa/mapa.png") no-repeat;
   background-size: 100%;
   width: 846px;
   height: 442px;
   margin: 60px auto 30px auto;
   transition: all 0.3s;
 }
-.btn-paises{
+.btn-paises {
   position: absolute;
   background-size: 100% !important;
   cursor: pointer;
 }
-.btn-africano{
+.btn-africano {
   width: 38px;
   height: 34px;
   margin-top: 334px;
   margin-left: 431px;
 }
-.btn-britanico{
+.btn-britanico {
   width: 20px;
   height: 31px;
   margin-top: 124px;
   margin-left: 379px;
   border-radius: 20px;
 }
-.btn-canadense{
+.btn-canadense {
   width: 215px;
   height: 150px;
   margin-top: 10px;
   margin-left: 64px;
   border-radius: 220px 50px 20px 130px;
 }
-.btn-indiano{
+.btn-indiano {
   width: 66px;
   height: 68px;
   margin-top: 196px;
   margin-left: 553px;
 }
-.btn-ingles01{
+.btn-ingles01 {
   width: 68px;
   height: 64px;
   margin-top: 73px;
   margin-left: 0px;
 }
-.btn-ingles02{
+.btn-ingles02 {
   width: 140px;
   height: 70px;
   margin-top: 155px;
   margin-left: 105px;
   border-radius: 0px 00px 60px 60px;
 }
-.btn-irlandes{
+.btn-irlandes {
   width: 14px;
   height: 15px;
   margin-top: 136px;
   margin-left: 367px;
   border-radius: 6px;
 }
-.btn-neozelandes{
+.btn-neozelandes {
   width: 14px;
   height: 36px;
   margin-top: 369px;
@@ -727,7 +816,7 @@ figure img {
   transform: rotate(42deg);
 }
 
-#div-tooltip{
+#div-tooltip {
   background-color: #fff;
   border: #00838d solid 4px;
   border-radius: 10px;
@@ -742,12 +831,11 @@ figure img {
   display: none;
   transition: all 0.4s;
 }
-#texto-tooltip{
+#texto-tooltip {
   text-align: center;
 }
 
 /*---------- /Painel Mapa ----------*/
-
 
 @media only screen and (min-width: 901px) {
   .mapa-mobile {
@@ -756,7 +844,7 @@ figure img {
 }
 
 @media only screen and (max-width: 900px) {
-  .painel-mapa{
+  .painel-mapa {
     display: none;
   }
 
@@ -792,7 +880,11 @@ figure img {
   .pg1-bg_dir4 {
     display: none;
   }
-  .pagina.pg2 figure img, .pagina.pg4 figure img, .cards__card figure{margin: 0;}
+  .pagina.pg2 figure img,
+  .pagina.pg4 figure img,
+  .cards__card figure {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -816,7 +908,7 @@ figure img {
 }
 
 @media only screen and (max-width: 480px) {
-  .painel-exemplos{
+  .painel-exemplos {
     transform: scale(0.8);
     margin-left: -90px;
   }
