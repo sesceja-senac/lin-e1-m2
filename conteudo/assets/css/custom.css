@@ -820,12 +820,12 @@ figure img {
   background-color: #fff;
   border: #00838d solid 4px;
   border-radius: 10px;
-  width: 200px;
+  width: 350px;
   height: 60px;
   position: absolute;
   z-index: 10;
   padding-top: 14px;
-  margin-left: -100px;
+  margin-left: -150px;
   left: 50%;
   margin-top: -40px;
   display: none;

@@ -146,7 +146,7 @@ jQuery("document").ready(function ($) {
       document.getElementById("painel-mapa").style.backgroundImage =
         "url('images/mapa/mapa-6.png')";
       document.getElementById("texto-tooltip").innerHTML =
-        "Inglês sul-africano";
+        "<i>South Africa english</i> – Inglês sul-africano";
       document
         .getElementById("div-tooltip")
         .setAttribute("style", "display:block");
@@ -166,7 +166,7 @@ jQuery("document").ready(function ($) {
     .addEventListener("mouseover", function () {
       document.getElementById("painel-mapa").style.backgroundImage =
         "url('images/mapa/mapa-1.png')";
-      document.getElementById("texto-tooltip").innerHTML = "Inglês britânico";
+      document.getElementById("texto-tooltip").innerHTML = "<i>British english</i> – Inglês britânico";
       document
         .getElementById("div-tooltip")
         .setAttribute("style", "display:block");
@@ -186,7 +186,7 @@ jQuery("document").ready(function ($) {
     .addEventListener("mouseover", function () {
       document.getElementById("painel-mapa").style.backgroundImage =
         "url('images/mapa/mapa-2.png')";
-      document.getElementById("texto-tooltip").innerHTML = "Inglês canadense";
+      document.getElementById("texto-tooltip").innerHTML = "<i>Canadian english</i> – Inglês canadense";
       document
         .getElementById("div-tooltip")
         .setAttribute("style", "display:block");
@@ -206,7 +206,7 @@ jQuery("document").ready(function ($) {
     .addEventListener("mouseover", function () {
       document.getElementById("painel-mapa").style.backgroundImage =
         "url('images/mapa/mapa-7.png')";
-      document.getElementById("texto-tooltip").innerHTML = "Inglês indiano";
+      document.getElementById("texto-tooltip").innerHTML = "<i>Indian english</i> – Inglês indiano";
       document
         .getElementById("div-tooltip")
         .setAttribute("style", "display:block");
@@ -226,7 +226,7 @@ jQuery("document").ready(function ($) {
     .addEventListener("mouseover", function () {
       document.getElementById("painel-mapa").style.backgroundImage =
         "url('images/mapa/mapa-3.png')";
-      document.getElementById("texto-tooltip").innerHTML = "Inglês americano";
+      document.getElementById("texto-tooltip").innerHTML = "<i>American english</i> – Inglês americano";
       document
         .getElementById("div-tooltip")
         .setAttribute("style", "display:block");
@@ -245,7 +245,7 @@ jQuery("document").ready(function ($) {
     .addEventListener("mouseover", function () {
       document.getElementById("painel-mapa").style.backgroundImage =
         "url('images/mapa/mapa-3.png')";
-      document.getElementById("texto-tooltip").innerHTML = "Inglês americano";
+      document.getElementById("texto-tooltip").innerHTML = "<i>American english</i> – Inglês americano";
       document
         .getElementById("div-tooltip")
         .setAttribute("style", "display:block");
@@ -265,7 +265,7 @@ jQuery("document").ready(function ($) {
     .addEventListener("mouseover", function () {
       document.getElementById("painel-mapa").style.backgroundImage =
         "url('images/mapa/mapa-5.png')";
-      document.getElementById("texto-tooltip").innerHTML = "Inglês irlandês";
+      document.getElementById("texto-tooltip").innerHTML = "<i>Irish english</i> – Inglês irlandês";
       document
         .getElementById("div-tooltip")
         .setAttribute("style", "display:block");
@@ -285,7 +285,7 @@ jQuery("document").ready(function ($) {
     .addEventListener("mouseover", function () {
       document.getElementById("painel-mapa").style.backgroundImage =
         "url('images/mapa/mapa-4.png')";
-      document.getElementById("texto-tooltip").innerHTML = "Inglês neozelandês";
+      document.getElementById("texto-tooltip").innerHTML = "<i>New Zealand english</i> – Inglês neozelandês";
       document
         .getElementById("div-tooltip")
         .setAttribute("style", "display:block");
