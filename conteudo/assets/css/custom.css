@@ -6,6 +6,20 @@ body {
 p {
   word-wrap: break-word;
 }
+.estiloReferencias {
+  background-image: url(../../images/referencias.jpg);
+  background-size: 100%;
+  padding-bottom: 100px;
+}
+.estiloReferencias .container {
+  padding-bottom: 50px;
+  background-color: white;
+
+}
+footer.container{
+  background-color: transparent !important;
+  margin-top: -70px;
+}
 .container {
   background-color: transparent;
   padding: 4px 40px;
