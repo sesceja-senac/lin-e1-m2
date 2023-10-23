@@ -6,10 +6,14 @@ body {
 p {
   word-wrap: break-word;
 }
+.titulo-conteudo{margin-bottom: -100px !important;}
+.titulo-conteudo h2{color: #00838D;}
 .estiloReferencias {
   background-image: url(../../images/referencias.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
+  background-attachment: fixed;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 .estiloReferencias .container {
   padding-bottom: 50px;
@@ -46,10 +50,15 @@ footer {
 .pagina.pg1 {
   padding-bottom: 100px;
 }
-
 .pagina.pg2,
-.pagina.pg4 {
-  color: #fff;
+.pagina.pg4{color: #fff;}
+.pagina.pg1,
+.pagina.pg2,
+.pagina.pg3,
+.pagina.pg4,
+.pagina.pg5 {
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 .pagina.pg2 .container,
 .pagina.pg4 .container {
@@ -359,6 +368,7 @@ footer {
 }
 .pagination {
   display: flex;
+  padding-bottom: 0 !important;
   margin: auto;
 }
 footer ul.pagination li.active a {

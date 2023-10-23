@@ -137,6 +137,10 @@ jQuery("document").ready(function ($) {
       .setAttribute("style", "color:#fff");
   } else if (pg_number == 5) {
     document.body.style.backgroundImage = "url('images/bg_pg5.jpg')";
+  } else if (pg_number == 6) {
+    document
+      .getElementById("titulo-header")
+      .setAttribute("style", "color:#fff");
   }
 
   //------ Painel Mapa ------\\
